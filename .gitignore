@@ -1,0 +1,5 @@
+/mvnApp/.idea
+*.iml
+*.class
+*.lst
+/mvnApp/*/target
