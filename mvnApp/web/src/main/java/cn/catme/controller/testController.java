@@ -22,7 +22,7 @@ public class testController {
             String data=request.getParameter("data");
             System.out.println("data:"+data);
 
-            service.addOne("小明");
+            service.addOne("小黑");
             response.getWriter().write("oh my god!");
         } catch (IOException e) {
             e.printStackTrace();

@@ -17,7 +17,7 @@ public class TestService {
     public void addOne(String userName){
         TestEntity entity=new TestEntity();
         entity.setUserName(userName);
-        entity.setId(1);
+        entity.setId(0);
         Date now=new Date();
         entity.setRawAddTime(now);
         entity.setRawUpdateTime(now);
