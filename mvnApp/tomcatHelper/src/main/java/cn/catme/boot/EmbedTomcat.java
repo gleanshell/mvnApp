@@ -23,7 +23,7 @@ public class EmbedTomcat {
         tomcat.setBaseDir(PROJECT_PATH);
         tomcat.setPort(this.port);
         try {
-            tomcat.addWebapp("",PROJECT_PATH+"/web/web");
+            tomcat.addWebapp("",PROJECT_PATH+"/web/webapp");
             tomcat.start();
             tomcat.getServer().await();
         } catch (ServletException e) {
